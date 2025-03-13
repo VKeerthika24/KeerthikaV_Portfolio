@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">KEERTHIKA V</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#badges">Problem Solving</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="profile-img-container">
+              <img src="./assets/mypic.jpg" alt="Profile Picture" class="img-fluid  profile-img">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="hero-content">
+              <p class="subtitle">Hello, I'm</p>
+              <h1 class="main-title">KEERTHIKA V</h1>
+              <p class="job-title">CSE - Pre Final Year Student | Aspiring Full Stack Developer | Passionate About Scalable & Efficient Code</p>
+              <div class="button-group">
+                <a href="./assets/myresume.pdf" class="btn btn-primary" download="Keerthika_Resume.pdf">Download CV</a>
+
+                <a href="#contact" class="btn btn-outline-primary">Contact Me</a>
+              </div>
+              <div class="social-icons">
+                <a href="https://github.com/VKeerthika24" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/keerthika-v-501b89257/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">Get To Know</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="about-img">
+              <img src="./assets/aboutpic.jpg" alt="About Me Image" class="img-fluid rounded">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="about-content">
+              <p class="about-text">
+                I'm Keerthika V, an aspiring Full Stack Developer passionate about creating web applications 
+              that solve real-world problems. Currently pursuing my degree in Computer Science, I'm focused on 
+              mastering both frontend and backend technologies. I enjoy tackling algorithm challenges and 
+              building projects that combine creativity with technical skills.
+              </p>
+              <div class="about-platforms mt-4">
+                <h3>Find Me On Coding Platforms</h3>
+                <div class="platform-links">
+                  <a href="https://leetcode.com/u/VKeerthika/" class="platform-link">
+                    <i class="fas fa-code"></i> LeetCode
+                  </a>
+                  <a href="https://www.hackerrank.com/profile/22CS068_KPRIET" class="platform-link">
+                    <i class="fab fa-hackerrank"></i> HackerRank
+                  </a>
+                  <a href="https://www.geeksforgeeks.org/user/vkkeert6x8t/" class="platform-link">
+                    <i class="fas fa-book"></i> GeeksforGeeks
+                  </a>
+                  <a href="https://www.interviewbit.com/profile/keerthika-v_890/" class="platform-link">
+                    <i class="fas fa-user-tie"></i> InterviewBit
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding section-alternate">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">My Academic Journey</span>
+          <h2>Education</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="education-content">
+                <h3>Bachelor of Engineering</h3>
+                <h4>Computer Science and Engineering</h4>
+                <p class="institution">KPR Institute of Engineering and Technolgy</p>
+                <p class="year">2022 - 2026</p>
+                <p class="grade">CGPA: 8.52</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="fas fa-school"></i>
+              </div>
+              <div class="education-content">
+                <h3>Higher Secondary</h3>
+                <h4>Maths with Computer Science</h4>
+                <p class="institution">Jaivabai Municipal Girls Higher Secondary School</p>
+                <p class="year">2022</p>
+                <p class="grade">Score: 87.8%</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="education-card">
+              <div class="education-icon">
+                <i class="fas fa-book"></i>
+              </div>
+              <div class="education-content">
+                <h3>Secondary School</h3>
+                <h4>General</h4>
+                <p class="institution">Jaivabai Municipal Girls Higher Secondary School</p>
+                <p class="year">2020</p>
+                <p class="grade">Score: 87%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="section-padding">
+  <div class="container">
+    <div class="section-title">
+      <span class="subtitle">Explore My</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fab fa-java"></i></div>
+        <h4>Java</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+        <h4>HTML5</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+        <h4>CSS3</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fab fa-js"></i></div>
+        <h4>JavaScript</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+        <h4>Bootstrap 5</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fab fa-react"></i></div>
+        <h4>React</h4>
+      </div>
+
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fas fa-database"></i></div>
+        <h4>MySQL</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fas fa-server"></i></div>
+        <h4>MongoDB</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+        <h4>Git</h4>
+      </div>
+      <div class="skill-item">
+        <div class="skill-icon">
+          <i class="fab fa-github"></i>
+        </div>
+        <h4>GitHub</h4>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding section-alternate">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">My Professional</span>
+          <h2>Experience</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="experience-card">
+              <div class="experience-header">
+                <div class="company-logo">
+                  <img src="./assets/intelaix_logo.png" alt="Company Logo">
+                </div>
+                <div class="company-info">
+                  <h3>Software Developer Intern</h3>
+                  <h4>IntelAIx Consultancy Services</h4>
+                  <p class="duration">May 2024 - July 2024</p>
+                </div>
+              </div>
+              <div class="experience-content">
+                <p>
+                  Developed a dynamic table with sorting by date and time, integrated charts for 
+                  visualization, and enabled PDF, Excel, and Word export using React JS, JavaScript,
+                  and Bootstrap 5. Implemented code obfuscation to enhance security and prevent 
+                  unauthorized access.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-badge">React.js</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">Bootstrap</span>
+                  <span class="tech-badge">MySQL</span>
+                  <span class="tech-badge">Git</span>
+                  <span class="tech-badge">GitHub</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <div class="experience-card">
+              <div class="experience-header">
+                <div class="company-logo">
+                  <img src="./assets/velam_ai_logo.png" alt="Company Logo">
+                </div>
+                <div class="company-info">
+                  <h3>Frontend Developer Intern</h3>
+                  <h4>Velam AI</h4>
+                  <p class="duration">Jan 2024 - Feb 2024</p>
+                </div>
+              </div>
+              <div class="experience-content">
+                <p>
+                  Gained hands-on experience in JavaScript and Bootstrap 5 by creating interactive, 
+                  responsive user interfaces for mini-projects. Developed real-world web applications,
+                  improving front-end skills and understanding of user interface.
+                </p>
+                <div class="tech-stack">
+                  <span class="tech-badge">HTML5</span>
+                  <span class="tech-badge">CSS3</span>
+                  <span class="tech-badge">JavaScript</span>
+                  <span class="tech-badge">Bootstrap 5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-title">
+          <span class="subtitle">Browse My Recent</span>
+          <h2>Projects</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="project-card">
+              <div class="project-img">
+                <img src="./assets/crypto.png" alt="Project Image" class="img-fluid">
+              </div>
+              <div class="project-content">
+                <h3>Cryptocurrency Explorer</h3>
+                <p class="project-description" id="proj-desc-1">
+                  A web application that allows users to explore real-time cryptocurrency data like 
+                  prices, market cap, and trading volume using an API.
+                </p>
+                <div class="project-actions">
+                  <a href="https://github.com/VKeerthika24/Crpto_Explorer" class="btn btn-sm btn-primary">GitHub</a>
+                  <button class="btn btn-sm btn-outline-primary toggle-desc" data-target="proj-desc-1">
+                    About
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project-card">
+              <div class="project-img">
+                <img src="./assets/shopme.png" alt="Project Image" class="img-fluid">
+              </div>
+              <div class="project-content">
+                <h3>ShopMe E-Commerce Website</h3>
+                <p class="project-description" id="proj-desc-2">
+                  An e-commerce website built using React where users can browse products, 
+                  add them to the cart, and purchase items securely.
+                </p>
+                <div class="project-actions">
+                  <a href="https://github.com/VKeerthika24/React_ShopMe_Ecommerce_website"  class="btn btn-sm btn-primary">GitHub</a>
+                  <button class="btn btn-sm btn-outline-primary toggle-desc" data-target="proj-desc-2">
+                    About
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project-card">
+              <div class="project-img">
+                <img src="./assets/snakegame.png" alt="Project Image" class="img-fluid">
+              </div>
+              <div class="project-content">
+                <h3>Snake Game</h3>
+                <p class="project-description" id="proj-desc-3">
+                  A classic Snake Game built using HTML, CSS, and JavaScript, where players 
+                  control a snake to eat food, grow, and avoid collisions.
+                </p>
+                <div class="project-actions">
+                  <a href="https://github.com/VKeerthika24/Snake-Game" class="btn btn-sm btn-primary">GitHub</a>
+                  <button class="btn btn-sm btn-outline-primary toggle-desc" data-target="proj-desc-3">
+                    About
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Find All My Projects Button -->
+    <div class="text-center mt-4">
+      <a href="https://github.com/VKeerthika24" class="btn btn-lg btn-primary">Find All My Projects on GitHub</a>
+    </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+<section id="achievements" class="section-padding section-alternate">
+  <div class="container">
+    <div class="section-title">
+      <span class="subtitle">My Proud</span>
+      <h2>Achievements & Certifications</h2>
+    </div>
+
+    <div id="achievementsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+        
+        <!-- Slide 1: AI Hunt, CCNA, NPTEL 1 -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="achievement-card text-center">
+                <div class="achievement-img">
+                  <img src="./assets/a1.jpg" alt="AI Hunt" class="img-fluid">
+                </div>
+                <div class="achievement-content">
+                  <h3>First Prize in AI Hunt</h3>
+                  <p>At Anna University Regional Campus</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="achievement-card text-center">
+                <div class="achievement-img">
+                  <img src="./assets/a2.jpg" alt="CCNA" class="img-fluid">
+                </div>
+                <div class="achievement-content">
+                  <h3>CCNA Certification</h3>
+                  <p>Completed CCNA certification</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="achievement-card text-center">
+                <div class="achievement-img">
+                  <img src="./assets/c3.jpg" alt="NPTEL 1" class="img-fluid">
+                </div>
+                <div class="achievement-content">
+                  <h3>NPTEL Privacy and Security in Online Social Media</h3>
+                  <p>Elite + Silver</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: NPTEL 2, TCS iON, Tableau -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="achievement-card text-center">
+                <div class="achievement-img">
+                  <img src="./assets/c5.jpg" alt="NPTEL 2" class="img-fluid">
+                </div>
+                <div class="achievement-content">
+                  <h3>NPTEL Introduction to Industry 4.0 and Industrial Internet of Things</h3>
+                  <p>Elite</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="achievement-card text-center">
+                <div class="achievement-img">
+                  <img src="./assets/c4.jpg" alt="TCS iON" class="img-fluid">
+                </div>
+                <div class="achievement-content">
+                  <h3>TCS iON Career Edge</h3>
+                  <p>Young Professional</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="achievement-card text-center">
+                <div class="achievement-img">
+                  <img src="./assets/c6.jpg" alt="Tableau Specialization" class="img-fluid">
+                </div>
+                <div class="achievement-content">
+                  <h3>Tableau Specialization</h3>
+                  <p>Data Visualization with Tableau</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: Problem Solving, Java, InterviewBit -->
+        
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#achievementsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#achievementsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#achievementsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Problem Solving Badges Section -->
+    <!-- Problem Solving Badges Section -->
+<section id="badges" class="section-padding">
+  <div class="container">
+    <div class="section-title">
+      <span class="subtitle">My Coding</span>
+      <h2>Problem Solving Badges</h2>
+    </div>
+    <div class="badges-carousel-container">
+      <div id="badgesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="badge-card">
+                  <div class="badge-icon">
+                    <i class="fas fa-medal"></i>
+                  </div>
+                  <div class="badge-content">
+                    <h3>LeetCode 50 Days Badge</h3>
+                    <p>Completed 50 days of coding challenges</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="badge-card">
+                  <div class="badge-icon">
+                    <i class="fas fa-trophy"></i>
+                  </div>
+                  <div class="badge-content">
+                    <h3>HackerRank 6-Star Problem Solving</h3>
+                    <p>Awarded 6-star rating for problem-solving skills</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="badge-card">
+                  <div class="badge-icon">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="badge-content">
+                    <h3>HackerRank 5-Star Java</h3>
+                    <p>Achieved 5-star proficiency in Java programming</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="badge-card">
+                  <div class="badge-icon">
+                    <i class="fas fa-layer-group"></i>
+                  </div>
+                  <div class="badge-content">
+                    <h3>InterviewBit Array Master</h3>
+                    <p>Expertise in array-based problem solving</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="badge-card">
+                  <div class="badge-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                  </div>
+                  <div class="badge-content">
+                    <h3>LeetCode January Badge</h3>
+                    <p>Completed January coding challenge</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#badgesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#badgesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#badgesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#badgesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding section-alternate">
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="subtitle">Get in Touch</span>
+          <h2>Contact Me</h2>
+        </div>
+    
+        <div class="row d-flex align-items-stretch">
+          <!-- Contact Info -->
+          <div class="col-lg-6 d-flex">
+            <div class="contact-info p-4 shadow rounded w-100">
+              <h3 class="mb-3">Let's Connect</h3>
+              <p>Feel free to reach out with any questions or inquiries.</p>
+              <div class="contact-item d-flex align-items-center">
+                <div class="contact-icon me-2">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-detail d-flex align-items-center">
+                  <p class="mb-0">
+                    <a href="mailto:vkkeerthika24@gmail.com" class="text-decoration-none">vkkeerthika24@gmail.com</a>
+                  </p>
+                  <a href="https://www.linkedin.com/in/keerthika-v-501b89257/" class="social-link ms-3"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Contact Form -->
+          <div class="col-lg-6 d-flex">
+            <div class="contact-form-container p-4 shadow rounded w-100">
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control rounded-pill" id="name" placeholder="Your Name" required>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control rounded-pill" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="message">Message</label>
+                  <textarea class="form-control rounded" id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 rounded-pill">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <div class="footer-links">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#about">About</a></li>
+                <li class="list-inline-item"><a href="#skills">Skills</a></li>
+                <li class="list-inline-item"><a href="#experience">Experience</a></li>
+                <li class="list-inline-item"><a href="#projects">Projects</a></li>
+                <li class="list-inline-item"><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p class="copyright">© Keerthika V | 2025 | All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
